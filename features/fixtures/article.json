@@ -1,0 +1,14 @@
+{
+  "model": "Article",
+  "data": {
+    "article1": {
+      "name": "article 1"
+    },
+    "article2": {
+      "name": "article 2"
+    },
+    "article3": {
+      "name": "{{article2.name}}"
+    }
+  }
+}
